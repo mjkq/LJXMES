@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ufinterface roottag="consignment" billtype="gl" docid="" receiver="u8" sender="005" proc="add" codeexchanged="N" exportneedexch="N" version="2.0">
+  <consignment>
+    <header>
+      <id>
+      </id>
+      <outid />
+      <code>SSZ2019050004</code>
+      <vouchertype>05</vouchertype>
+      <saletype>01</saletype>
+      <date>2019-05-05</date>
+      <deptcode>01</deptcode>
+      <personcode>
+      </personcode>
+      <custcode>SZLJ</custcode>
+      <paycondition_code />
+      <shippingchoice />
+      <address>
+      </address>
+      <ccusperson />
+      <ccuspersoncode />
+      <currency_name>人民币</currency_name>
+      <currency_rate>1</currency_rate>
+      <taxrate />
+      <beginflag>0</beginflag>
+      <returnflag>0</returnflag>
+      <remark>
+      </remark>
+      <define1>13771828172</define1>
+      <define2>
+      </define2>
+      <define3>快递</define3>
+      <define4>2019-05-06</define4>
+      <define5>0.00000000000000</define5>
+      <define6 />
+      <define7 />
+      <define8>罗金龙</define8>
+      <define9>公司付</define9>
+      <define10>无</define10>
+      <define11 />
+      <define12>SSZ2019050004</define12>
+      <define13>苏州市高新区滨河路588号苏州赛格电子市场1D11室</define13>
+      <define14>无</define14>
+      <define15 />
+      <define16 />
+      <maker>张永香</maker>
+      <sale_cons_flag>0</sale_cons_flag>
+      <retail_custname />
+      <operation_type>普通销售</operation_type>
+      <cverifier />
+      <cdeliverunit />
+      <cdeliveradd />
+      <ccontactname />
+      <cofficephone />
+      <cmobilephone />
+      <caddcode />
+      <cgatheringplan />
+      <dcreditstart />
+      <icreditdays />
+      <dgatheringdate />
+      <bcredit />
+    </header>
+    <body>
+      <entry>
+        <headid />
+        <body_outid />
+        <warehouse_code>GCK</warehouse_code>
+        <inventory_code>21104130001012</inventory_code>
+        <quantity>400.00000000000000</quantity>
+        <num>2.00000000000000</num>
+        <itb />
+        <ccomunitcode>M200</ccomunitcode>
+        <cinvm_unit>米</cinvm_unit>
+        <iinvexchrate />
+        <cinva_unit>米</cinva_unit>
+        <assistantunit />
+        <quotedprice>5.95000000000000</quotedprice>
+        <price></price>
+        <taxprice>5.95000000000000</taxprice>
+        <money>2106.19000000000000</money>
+        <tax>273.81000000000000</tax>
+        <sum>2380.00000000000000</sum>
+        <discount />
+        <natprice />
+        <natmoney />
+        <nattax />
+        <natsum />
+        <natdiscount />
+        <batch />
+        <remark />
+        <backflag>正常</backflag>
+        <overdate />
+        <backquantity>400.00000000000000</backquantity>
+        <backnum>400.00000000000000</backnum>
+        <discount1 />
+        <discount2 />
+        <inventory_printname />
+        <taxrate>13.00000000000000</taxrate>
+        <item_class />
+        <item_classname />
+        <item_code />
+        <item_name />
+        <retail_price>
+        </retail_price>
+        <retail_money />
+        <vendor_name />
+        <unitrate>200.00000000000000</unitrate>
+        <unit_code>M200</unit_code>
+        <free1 />
+        <free2 />
+        <free3 />
+        <free4 />
+        <free5 />
+        <free6 />
+        <free7 />
+        <free8 />
+        <free9 />
+        <free10 />
+        <define22 />
+        <define23>
+        </define23>
+        <define24>
+        </define24>
+        <define25>
+        </define25>
+        <define26 />
+        <define27>
+        </define27>
+        <define28>
+        </define28>
+        <define29>
+        </define29>
+        <define30>
+        </define30>
+        <define31>
+        </define31>
+        <define32>LHTSH2019040139</define32>
+        <define33>LHTSZ2019050100</define33>
+        <define34 />
+        <define35 />
+        <define36 />
+        <define37 />
+        <batchproperty1 />
+        <batchproperty2 />
+        <batchproperty3 />
+        <batchproperty4 />
+        <batchproperty5 />
+        <batchproperty6 />
+        <batchproperty7 />
+        <batchproperty8 />
+        <batchproperty9 />
+        <batchproperty10 />
+        <ccorcode />
+        <icorid />
+        <ccusinvcode />
+        <ccusinvname />
+        <ippartseqid />
+        <ippartqty />
+        <ippartid />
+        <bqaneedcheck />
+        <bqaurgency />
+        <cmassunit />
+        <imassdate />
+        <dmdate />
+        <cordercode />
+        <iorderrowno />
+        <cvmivencode />
+        <irowno />
+        <ExpirationDate />
+        <ExpiratDateCalcu />
+        <ExpirationItem />
+        <ReasonCode />
+        <bsaleprice>0</bsaleprice>
+        <bgift>0</bgift>
+        <fcusminprice />
+        <cparentcode />
+        <cchildcode />
+        <icalctype />
+        <fchildqty />
+        <fchildrate />
+      </entry>
+    </body>
+  </consignment>
+</ufinterface>

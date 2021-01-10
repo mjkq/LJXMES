@@ -1,0 +1,112 @@
+﻿@model IEnumerable<TimeAPI.Models.Business>
+
+@{
+    ViewBag.Title = "任务中心";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>任务列表</h2>
+
+<p>
+    <a href="/Businesses/Create" class="btn btn-primary btn-lg">添加任务 </a>
+</p>
+<table class="table" id="businessTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CODE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NAME)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TYPE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ISAUTO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.STARTDATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ENDDATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VALUE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FREQUENCY)
+            </th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CODE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NAME)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TYPE)
+                </td>
+                <td>
+                    @( item.ISAUTO.Value ? "是" : "否")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.STARTDATE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ENDDATE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VALUE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FREQUENCY)
+                </td>
+                <td>
+                    @Html.ActionLink("编辑", "Edit", new { id = item.ID }) |
+                    @*@Html.ActionLink("Details", "Details", new { id=item.ID }) |*@
+                    @Html.ActionLink("删除", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script>
+        $(function () {
+            $('#businessTable').dataTable({
+                "ordering": false,
+                "oLanguage": {//国际语言转化
+                    "oAria": {
+                        "sSortAscending": " - click/return to sort ascending",
+                        "sSortDescending": " - click/return to sort descending"
+                    },
+                    "sLengthMenu": "显示 _MENU_ 记录",
+                    "sZeroRecords": "对不起，查询不到任何相关数据",
+                    "sEmptyTable": "未有相关数据",
+                    "sLoadingRecords": "正在加载数据-请等待...",
+                    "sInfo": "当前显示 _START_ 到 _END_ 条，共 _TOTAL_ 条记录。",
+                    "sInfoEmpty": "当前显示0到0条，共0条记录",
+                    "sInfoFiltered": "（数据库中共为 _MAX_ 条记录）",
+                    "sProcessing": "<img src='../resources/user_share/row_details/select2-spinner.gif'/> 正在加载数据...",
+                    "sSearch": "模糊查询：",
+                    "sUrl": "",
+                    //多语言配置文件，可将oLanguage的设置放在一个txt文件中，例：Javascript/datatable/dtCH.txt
+                    "oPaginate": {
+                        "sFirst": "首页",
+                        "sPrevious": " 上一页 ",
+                        "sNext": " 下一页 ",
+                        "sLast": " 尾页 "
+                    }
+                }
+
+            });
+
+        });
+
+</script>

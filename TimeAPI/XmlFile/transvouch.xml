@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ufinterface sender="005" receiver="u8" roottag="transvouch" proc="add" codeexchanged="N" exportneedexch="N" display="调拨单" family="库存管理" timestamp="0x00000000001D47D5">
+  <transvouch>
+    <header>
+      <btransflag>0</btransflag>
+      <accounter />
+      <idepcode>03</idepcode>
+      <odepcode>03</odepcode>
+      <irdcode />
+      <ordcode />
+      <iwhcode>AHB</iwhcode>
+      <inwhaddress />
+      <inwhphone />
+      <inwhperson />
+      <owhcode>AHC</owhcode>
+      <outwhaddress>
+      </outwhaddress>
+      <outwhphone>
+      </outwhphone>
+      <outwhperson>
+      </outwhperson>
+      <personcode />
+      <pspcode />
+      <tvcode>ALHC2019050018</tvcode>
+      <mpocode />
+      <id>
+      </id>
+      <proorderid />
+      <quantity>0</quantity>
+      <vtid>
+      </vtid>
+      <date>2019-05-20</date>
+      <memory>
+      </memory>
+      <auditperson />
+      <auditdate />
+      <maker>李新凤</maker>
+      <define1 />
+      <define2 />
+      <define3 />
+      <define4 />
+      <define5 />
+      <define6 />
+      <define7 />
+      <define8 />
+      <define9 />
+      <define10 />
+      <define11 />
+      <define12>ALHC2019050018</define12>
+      <define13 />
+      <define14 />
+      <define15 />
+      <define16 />
+      <free1 />
+      <free2 />
+      <free3 />
+      <free4 />
+      <free5 />
+      <free6 />
+      <free7 />
+      <free8 />
+      <free9 />
+      <free10 />
+      <ordertype />
+      <transappcode />
+      <version />
+      <bomid />
+      <csource>1</csource>
+    </header>
+    <body>
+      <entry>
+        <id>
+        </id>
+        <barcode />
+        <inventorycode>24301180001030</inventorycode>
+        <free1 />
+        <free2 />
+        <free3 />
+        <free4 />
+        <free5 />
+        <free6 />
+        <free7 />
+        <free8 />
+        <free9 />
+        <free10 />
+        <quantity>95.00000000000000</quantity>
+        <cmassunitname>米</cmassunitname>
+        <assitantunit>M001</assitantunit>
+        <assitantunitname>米</assitantunitname>
+        <irate />
+        <number>95.00000000000000</number>
+        <actualcost>0.00000000000000</actualcost>
+        <actualprice>0</actualprice>
+        <plancost />
+        <price>0</price>
+        <define22 />
+        <define23 />
+        <define24 />
+        <define25 />
+        <define26 />
+        <define27 />
+        <define28 />
+        <define29 />
+        <define30 />
+        <define31>
+        </define31>
+        <define32>
+        </define32>
+        <define33>
+        </define33>
+        <define34 />
+        <define35 />
+        <define36 />
+        <define37 />
+        <subconsignmentid>1</subconsignmentid>
+        <bvencode />
+        <invouchcode />
+        <imassdate />
+        <serial />
+        <makedate />
+        <validdate />
+        <massunit />
+        <tvcode>ALHC2019050018</tvcode>
+        <salecost>0</salecost>
+        <saleprice>0</saleprice>
+        <mpoids />
+        <rdsid />
+        <itemclasscode />
+        <itemclassname />
+        <itemcode />
+        <itemname />
+        <transappids />
+        <sodid />
+        <saletype />
+      </entry>
+    </body>
+  </transvouch>
+</ufinterface>

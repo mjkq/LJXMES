@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ufinterface sender="005" receiver="u8" roottag="storein" proc="add" codeexchanged="N" exportneedexch="N" paginate="0" display="入库单" family="库存管理">
+  <storein>
+    <header>
+      <receiveflag>1</receiveflag>
+      <vouchtype>08</vouchtype>
+      <businesstype>其他入库</businesstype>
+      <source>库存</source>
+      <businesscode>
+      </businesscode>
+      <warehousecode>GCK</warehousecode>
+      <date>2019-05-15</date>
+      <code>ICAH2019050009</code>
+      <sourcecodels />
+      <receivecode />
+      <departmentcode>03</departmentcode>
+      <personcode />
+      <purchasetypecode />
+      <saletypecode />
+      <customercode />
+      <vendorcode>
+      </vendorcode>
+      <ordercode />
+      <quantity />
+      <arrivecode />
+      <billcode />
+      <consignmentcode />
+      <arrivedate />
+      <checkcode />
+      <checkdate />
+      <checkperson />
+      <templatenumber>
+      </templatenumber>
+      <serial />
+      <handler>
+      </handler>
+      <memory>改包装</memory>
+      <maker>李新凤</maker>
+      <chandler>
+      </chandler>
+      <define1 />
+      <define2>
+      </define2>
+      <define3 />
+      <define4 />
+      <define5 />
+      <define6 />
+      <define7 />
+      <define8 />
+      <define9 />
+      <define10 />
+      <define11>弱电</define11>
+      <define12>ALWG2019050004</define12>
+      <define13 />
+      <define14 />
+      <define15 />
+      <define16 />
+      <auditdate>
+      </auditdate>
+      <taxrate />
+      <exchname>人民币</exchname>
+      <exchrate>1</exchrate>
+      <discounttaxtype>0</discounttaxtype>
+      <contact />
+      <phone />
+      <mobile />
+      <address />
+      <conphone />
+      <conmobile />
+      <deliverunit />
+      <contactname />
+      <officephone />
+      <mobilephone />
+      <psnophone />
+      <psnmobilephone />
+      <shipaddress />
+      <addcode />
+      <bomfirst>0</bomfirst>
+      <bpufirst>0</bpufirst>
+      <cvenpuomprotocol />
+      <dcreditstart />
+      <icreditperiod />
+      <dgatheringdate />
+      <bcredit>0</bcredit>
+    </header>
+    <body>
+      <entry>
+        <barcode />
+        <inventorycode>24301150001240</inventorycode>
+        <invname>60227 IEC 01(BV) 450/750 2.5mm²</invname>
+        <free1 />
+        <free2 />
+        <free3 />
+        <free4 />
+        <free5 />
+        <free6 />
+        <free7 />
+        <free8 />
+        <free9 />
+        <free10 />
+        <shouldquantity>
+        </shouldquantity>
+        <shouldnumber>
+        </shouldnumber>
+        <quantity>2716.00000000000000</quantity>
+        <cmassunitname>米</cmassunitname>
+        <assitantunit>J001</assitantunit>
+        <assitantunitname>件</assitantunitname>
+        <irate>1.00000000000000</irate>
+        <number>2716.00000000000000</number>
+        <price>0</price>
+        <cost>0</cost>
+        <facost>
+        </facost>
+        <iaprice>
+        </iaprice>
+        <plancost />
+        <planprice />
+        <serial />
+        <makedate />
+        <validdate />
+        <transitionid />
+        <subbillcode />
+        <subpurchaseid />
+        <position />
+        <itemclasscode />
+        <itemclassname />
+        <itemcode />
+        <itemname />
+        <define22>
+        </define22>
+        <define23>
+        </define23>
+        <define24>
+        </define24>
+        <define25 />
+        <define26 />
+        <define27>
+        </define27>
+        <define28>
+        </define28>
+        <define29>
+        </define29>
+        <define30>
+        </define30>
+        <define31>
+        </define31>
+        <define32>
+        </define32>
+        <define33>
+        </define33>
+        <define34 />
+        <define35 />
+        <define36 />
+        <define37 />
+        <subconsignmentid />
+        <delegateconsignmentid />
+        <subproducingid />
+        <subcheckid />
+        <cRejectCode />
+        <iRejectIds />
+        <cCheckPersonCode />
+        <dCheckDate />
+        <cCheckCode />
+        <iMassDate />
+        <ioritaxcost>
+        </ioritaxcost>
+        <ioricost>
+        </ioricost>
+        <iorimoney>
+        </iorimoney>
+        <ioritaxprice>
+        </ioritaxprice>
+        <iorisum>
+        </iorisum>
+        <taxrate>
+        </taxrate>
+        <taxprice>
+        </taxprice>
+        <isum>
+        </isum>
+        <massunit />
+        <vmivencode />
+        <materialfee />
+        <processcost />
+        <processfee />
+        <dmsdate />
+        <batchproperty1 />
+        <batchproperty2 />
+        <batchproperty3 />
+        <batchproperty4 />
+        <batchproperty5 />
+        <batchproperty6 />
+        <batchproperty7 />
+        <batchproperty8 />
+        <batchproperty9 />
+        <batchproperty10 />
+        <iexpiratdatecalcu>
+        </iexpiratdatecalcu>
+        <dexpirationdate />
+        <cexpirationdate />
+        <memory />
+      </entry>
+    </body>
+  </storein>
+</ufinterface>

@@ -1,0 +1,152 @@
+﻿@model IEnumerable<TimeAPI.Models.Logdetail>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>日志记录</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+    <style type="text/css">
+
+        td {
+            white-space: nowrap; /*文本不会换行，在同一行显示*/
+            overflow: hidden; /*超出隐藏 */
+            text-overflow: ellipsis; /*省略号显示 */
+        }
+    </style>
+</head>
+<body style="background-color:white;">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" onclick="closeif($(this));">
+            <span aria-hidden="true">&times;</span><span class="sr-only">X</span>
+        </button>
+        <h4 class="modal-title">日志记录</h4>
+    </div>
+    <div class="modal-body">
+        <table class="table table-bordered" style="table-layout: fixed;" id="logtable">
+            <thead>
+                <tr>
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.busId)
+                        </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.code)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.date)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.url)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.postData)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.postType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.returnData)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.result)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.description)
+                    </th>
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.mark)
+                        </th>*@
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+            {
+                    <tr>
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.busId)
+                            </td>*@
+                        <td title="@Html.DisplayFor(modelItem => item.code)">
+                            @Html.DisplayFor(modelItem => item.code)
+                        </td>
+                        <td title="@Html.DisplayFor(modelItem => item.date)">
+                            @Html.DisplayFor(modelItem => item.date)
+                        </td>
+                        <td title="@Html.DisplayFor(modelItem => item.url)">
+                            @Html.DisplayFor(modelItem => item.url)
+                        </td>
+                        <td title="@Html.DisplayFor(modelItem => item.postData)">
+                            @Html.DisplayFor(modelItem => item.postData)
+                        </td>
+                        <td title="@Html.DisplayFor(modelItem => item.postType)">
+                            @Html.DisplayFor(modelItem => item.postType)
+                        </td>
+                        <td title="@Html.DisplayFor(modelItem => item.returnData)">
+                            @Html.DisplayFor(modelItem => item.returnData)
+                        </td>
+                        <td title="@Html.DisplayFor(modelItem => item.result)">
+                            @Html.DisplayFor(modelItem => item.result)
+                        </td>
+                        <td title="@Html.DisplayFor(modelItem => item.description)">
+                            @Html.DisplayFor(modelItem => item.description)
+                        </td>
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.mark)
+                            </td>*@
+                        @*<td>
+                                @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+                                @Html.ActionLink("Details", "Details", new { id=item.id }) |
+                                @Html.ActionLink("Delete", "Delete", new { id=item.id })
+                            </td>*@
+                    </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+    <div class="modal-footer" >
+        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="closeif($(this));">关闭</button>
+    </div>
+    <script>
+        function closeif(o) {
+            window.parent.closelog();
+        }
+        $(function () {
+            $('#logtable').dataTable({
+                "oLanguage": {//国际语言转化
+                    "oAria": {
+                        "sSortAscending": " - click/return to sort ascending",
+                        "sSortDescending": " - click/return to sort descending"
+                    },
+                    "sLengthMenu": "显示 _MENU_ 记录",
+                    "sZeroRecords": "对不起，查询不到任何相关数据",
+                    "sEmptyTable": "未有相关数据",
+                    "sLoadingRecords": "正在加载数据-请等待...",
+                    "sInfo": "当前显示 _START_ 到 _END_ 条，共 _TOTAL_ 条记录。",
+                    "sInfoEmpty": "当前显示0到0条，共0条记录",
+                    "sInfoFiltered": "（数据库中共为 _MAX_ 条记录）",
+                    "sProcessing": "<img src='../resources/user_share/row_details/select2-spinner.gif'/> 正在加载数据...",
+                    "sSearch": "模糊查询：",
+                    "sUrl": "",
+                    //多语言配置文件，可将oLanguage的设置放在一个txt文件中，例：Javascript/datatable/dtCH.txt
+                    "oPaginate": {
+                        "sFirst": "首页",
+                        "sPrevious": " 上一页 ",
+                        "sNext": " 下一页 ",
+                        "sLast": " 尾页 "
+                    }
+                }
+
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>

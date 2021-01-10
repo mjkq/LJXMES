@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ufinterface roottag="consignment" billtype="gl" docid="" receiver="u8" sender="33" proc="add" codeexchanged="N" exportneedexch="N" version="2.0">
+  <consignment>
+    <header>
+      <id>1</id>
+      <outid />
+      <code>012018030002</code>
+      <vouchertype>05</vouchertype>
+      <saletype>01</saletype>
+      <date>2018/3/15</date>
+      <deptcode>11</deptcode>
+      <personcode>
+      </personcode>
+      <custcode>xhkh</custcode>
+      <paycondition_code />
+      <shippingchoice />
+      <address>测试收货地址</address>
+      <ccusperson />
+      <ccuspersoncode />
+      <currency_name>人民币</currency_name>
+      <currency_rate>1</currency_rate>
+      <taxrate />
+      <beginflag>0</beginflag>
+      <returnflag>0</returnflag>
+      <remark>
+      </remark>
+      <define1 />
+      <define2 />
+      <define3 />
+      <define4 />
+      <define5 />
+      <define6 />
+      <define7 />
+      <define8 />
+      <define9 />
+      <define10 />
+      <define11 />
+      <define12 />
+      <define13 />
+      <define14 />
+      <define15 />
+      <define16 />
+      <maker>demo</maker>
+      <sale_cons_flag>0</sale_cons_flag>
+      <retail_custname />
+      <operation_type>普通销售</operation_type>
+      <cverifier />
+      <cdeliverunit />
+      <cdeliveradd />
+      <ccontactname />
+      <cofficephone />
+      <cmobilephone />
+      <caddcode />
+      <cgatheringplan />
+      <dcreditstart />
+      <icreditdays />
+      <dgatheringdate />
+      <bcredit />
+    </header>
+    <body>
+      <entry>
+        <headid />
+        <body_outid />
+        <warehouse_code>SZA</warehouse_code>
+        <inventory_code>002</inventory_code>
+        <quantity>11</quantity>
+        <num>11</num>
+        <itb />
+        <ccomunitcode>M305</ccomunitcode>
+        <cinvm_unit>米</cinvm_unit>
+        <iinvexchrate />
+        <cinva_unit>米</cinva_unit>
+        <assistantunit />
+        <quotedprice>0</quotedprice>
+        <price>18.8</price>
+        <taxprice>22</taxprice>
+        <money>206.84</money>
+        <tax>35.16</tax>
+        <sum>242</sum>
+        <discount />
+        <natprice />
+        <natmoney />
+        <nattax />
+        <natsum />
+        <natdiscount />
+        <batch />
+        <remark />
+        <backflag />
+        <overdate />
+        <backquantity>11</backquantity>
+        <backnum>11</backnum>
+        <discount1 />
+        <discount2 />
+        <inventory_printname />
+        <taxrate>17</taxrate>
+        <item_class />
+        <item_classname />
+        <item_code />
+        <item_name />
+        <retail_price>
+        </retail_price>
+        <retail_money />
+        <vendor_name />
+        <unitrate />
+        <unit_code>M305</unit_code>
+        <free1 />
+        <free2 />
+        <free3 />
+        <free4 />
+        <free5 />
+        <free6 />
+        <free7 />
+        <free8 />
+        <free9 />
+        <free10 />
+        <define22 />
+        <define23 />
+        <define24 />
+        <define25 />
+        <define26 />
+        <define27 />
+        <define28 />
+        <define29 />
+        <define30 />
+        <define31 />
+        <define32 />
+        <define33 />
+        <define34 />
+        <define35 />
+        <define36 />
+        <define37 />
+        <batchproperty1 />
+        <batchproperty2 />
+        <batchproperty3 />
+        <batchproperty4 />
+        <batchproperty5 />
+        <batchproperty6 />
+        <batchproperty7 />
+        <batchproperty8 />
+        <batchproperty9 />
+        <batchproperty10 />
+        <ccorcode />
+        <icorid />
+        <ccusinvcode />
+        <ccusinvname />
+        <ippartseqid />
+        <ippartqty />
+        <ippartid />
+        <bqaneedcheck />
+        <bqaurgency />
+        <cmassunit />
+        <imassdate />
+        <dmdate />
+        <cordercode />
+        <iorderrowno />
+        <cvmivencode />
+        <irowno />
+        <ExpirationDate />
+        <ExpiratDateCalcu />
+        <ExpirationItem />
+        <ReasonCode />
+        <bsaleprice>0</bsaleprice>
+        <bgift>0</bgift>
+        <fcusminprice />
+        <cparentcode />
+        <cchildcode />
+        <icalctype />
+        <fchildqty />
+        <fchildrate />
+      </entry>
+      <entry>
+        <headid />
+        <body_outid />
+        <warehouse_code>SZA</warehouse_code>
+        <inventory_code>003</inventory_code>
+        <quantity>12</quantity>
+        <num>12</num>
+        <itb />
+        <ccomunitcode>M500</ccomunitcode>
+        <cinvm_unit>米</cinvm_unit>
+        <iinvexchrate />
+        <cinva_unit>米</cinva_unit>
+        <assistantunit />
+        <quotedprice>0</quotedprice>
+        <price>19.66</price>
+        <taxprice>23</taxprice>
+        <money>235.9</money>
+        <tax>40.1</tax>
+        <sum>276</sum>
+        <discount />
+        <natprice />
+        <natmoney />
+        <nattax />
+        <natsum />
+        <natdiscount />
+        <batch />
+        <remark />
+        <backflag />
+        <overdate />
+        <backquantity>12</backquantity>
+        <backnum>12</backnum>
+        <discount1 />
+        <discount2 />
+        <inventory_printname />
+        <taxrate>17</taxrate>
+        <item_class />
+        <item_classname />
+        <item_code />
+        <item_name />
+        <retail_price>
+        </retail_price>
+        <retail_money />
+        <vendor_name />
+        <unitrate />
+        <unit_code>M500</unit_code>
+        <free1 />
+        <free2 />
+        <free3 />
+        <free4 />
+        <free5 />
+        <free6 />
+        <free7 />
+        <free8 />
+        <free9 />
+        <free10 />
+        <define22 />
+        <define23 />
+        <define24 />
+        <define25 />
+        <define26 />
+        <define27 />
+        <define28 />
+        <define29 />
+        <define30 />
+        <define31 />
+        <define32 />
+        <define33 />
+        <define34 />
+        <define35 />
+        <define36 />
+        <define37 />
+        <batchproperty1 />
+        <batchproperty2 />
+        <batchproperty3 />
+        <batchproperty4 />
+        <batchproperty5 />
+        <batchproperty6 />
+        <batchproperty7 />
+        <batchproperty8 />
+        <batchproperty9 />
+        <batchproperty10 />
+        <ccorcode />
+        <icorid />
+        <ccusinvcode />
+        <ccusinvname />
+        <ippartseqid />
+        <ippartqty />
+        <ippartid />
+        <bqaneedcheck />
+        <bqaurgency />
+        <cmassunit />
+        <imassdate />
+        <dmdate />
+        <cordercode />
+        <iorderrowno />
+        <cvmivencode />
+        <irowno />
+        <ExpirationDate />
+        <ExpiratDateCalcu />
+        <ExpirationItem />
+        <ReasonCode />
+        <bsaleprice>0</bsaleprice>
+        <bgift>0</bgift>
+        <fcusminprice />
+        <cparentcode />
+        <cchildcode />
+        <icalctype />
+        <fchildqty />
+        <fchildrate />
+      </entry>
+      <entry>
+        <headid />
+        <body_outid />
+        <warehouse_code>SZA</warehouse_code>
+        <inventory_code>004</inventory_code>
+        <quantity>13</quantity>
+        <num>13</num>
+        <itb />
+        <ccomunitcode>M610</ccomunitcode>
+        <cinvm_unit>米</cinvm_unit>
+        <iinvexchrate />
+        <cinva_unit>米</cinva_unit>
+        <assistantunit />
+        <quotedprice>0</quotedprice>
+        <price>20.51</price>
+        <taxprice>24</taxprice>
+        <money>266.67</money>
+        <tax>45.33</tax>
+        <sum>312</sum>
+        <discount />
+        <natprice />
+        <natmoney />
+        <nattax />
+        <natsum />
+        <natdiscount />
+        <batch />
+        <remark />
+        <backflag />
+        <overdate />
+        <backquantity>13</backquantity>
+        <backnum>13</backnum>
+        <discount1 />
+        <discount2 />
+        <inventory_printname />
+        <taxrate>17</taxrate>
+        <item_class />
+        <item_classname />
+        <item_code />
+        <item_name />
+        <retail_price>
+        </retail_price>
+        <retail_money />
+        <vendor_name />
+        <unitrate />
+        <unit_code>M610</unit_code>
+        <free1 />
+        <free2 />
+        <free3 />
+        <free4 />
+        <free5 />
+        <free6 />
+        <free7 />
+        <free8 />
+        <free9 />
+        <free10 />
+        <define22 />
+        <define23 />
+        <define24 />
+        <define25 />
+        <define26 />
+        <define27 />
+        <define28 />
+        <define29 />
+        <define30 />
+        <define31 />
+        <define32 />
+        <define33 />
+        <define34 />
+        <define35 />
+        <define36 />
+        <define37 />
+        <batchproperty1 />
+        <batchproperty2 />
+        <batchproperty3 />
+        <batchproperty4 />
+        <batchproperty5 />
+        <batchproperty6 />
+        <batchproperty7 />
+        <batchproperty8 />
+        <batchproperty9 />
+        <batchproperty10 />
+        <ccorcode />
+        <icorid />
+        <ccusinvcode />
+        <ccusinvname />
+        <ippartseqid />
+        <ippartqty />
+        <ippartid />
+        <bqaneedcheck />
+        <bqaurgency />
+        <cmassunit />
+        <imassdate />
+        <dmdate />
+        <cordercode />
+        <iorderrowno />
+        <cvmivencode />
+        <irowno />
+        <ExpirationDate />
+        <ExpiratDateCalcu />
+        <ExpirationItem />
+        <ReasonCode />
+        <bsaleprice>0</bsaleprice>
+        <bgift>0</bgift>
+        <fcusminprice />
+        <cparentcode />
+        <cchildcode />
+        <icalctype />
+        <fchildqty />
+        <fchildrate />
+      </entry>
+    </body>
+  </consignment>
+</ufinterface>

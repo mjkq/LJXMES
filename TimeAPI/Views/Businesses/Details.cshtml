@@ -1,0 +1,83 @@
+﻿@model TimeAPI.Models.Business
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Business</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CODE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CODE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NAME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NAME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TYPE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TYPE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ISAUTO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ISAUTO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.STARTDATE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.STARTDATE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ENDDATE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ENDDATE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VALUE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VALUE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FREQUENCY)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FREQUENCY)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

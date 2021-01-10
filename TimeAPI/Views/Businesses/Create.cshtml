@@ -1,0 +1,103 @@
+﻿@model TimeAPI.Models.Business
+
+@{
+    ViewBag.Title = "添加任务";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>添加任务</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>--添加即将同步任务</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.CODE, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CODE, new { htmlAttributes = new { @class = "form-control1" } })
+                @Html.ValidationMessageFor(model => model.CODE, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NAME, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NAME, new { htmlAttributes = new { @class = "form-control1" } })
+                @Html.ValidationMessageFor(model => model.NAME, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TYPE, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-sm-8 ct">
+                @*@Html.EditorFor(model => model.TYPE, new { htmlAttributes = new { @class = "form-control1" } })*@
+                @Html.RadioButtonFor(m => m.TYPE, "间隔", new { @id = "radio1", @name = "rdolstState", @checked = true })间隔
+                @Html.RadioButtonFor(m => m.TYPE, "定时", new { @id = "radio0", @name = "rdolstState", @disabled=true })定时
+                @Html.ValidationMessageFor(model => model.TYPE, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ISAUTO, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="col-md-10" style="padding-left: 0px;">
+                    @Html.EditorFor(model => model.ISAUTO,new { htmlAttributes = new { @class = "form-control1" } })
+                    @Html.ValidationMessageFor(model => model.ISAUTO, "", new { @class = "text-danger " })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.STARTDATE, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.STARTDATE, new { htmlAttributes = new { @class = "form-control1", @type = "date", @value = "Select date",@onfocus = "this.value = '';",@onblur = "if (this.value == '') {this.value = 'Select date';}" } })
+
+                @Html.ValidationMessageFor(model => model.STARTDATE, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ENDDATE, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ENDDATE, new { htmlAttributes = new { @class = "form-control1", @type = "date", @value = "Select date", @onfocus = "this.value = '';", @onblur = "if (this.value == '') {this.value = 'Select date';}" } })
+                @Html.ValidationMessageFor(model => model.ENDDATE, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.VALUE, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.VALUE, new { htmlAttributes = new { @class = "form-control1" } })
+                @Html.ValidationMessageFor(model => model.VALUE, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FREQUENCY, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.FREQUENCY, new SelectList(ViewBag.hard_value, "Value", "Text"), new { @class = "btn  dropdown-toggle form-control1" })
+                @*@Html.EditorFor(model => model.FREQUENCY, new { htmlAttributes = new { @class = "form-control1" } })*@
+                @Html.ValidationMessageFor(model => model.FREQUENCY, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="保存" class="btn btn-primary btn-lg" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    <a href="/Businesses/Index" class="btn btn-default btn-link">返回列表 </a>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

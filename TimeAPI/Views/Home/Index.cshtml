@@ -1,0 +1,115 @@
+﻿@model  TimeAPI.Models.BusinessMdellist
+@{
+    ViewBag.Title = "控制中心";
+}
+
+<div class="header_bg">
+
+    <div class="header">
+        <div class="head-t">
+            <div class="logo">
+                <a href="../Home/Index"><img src="../images/ljx.png" class="img-responsive" alt=""> </a>
+            </div>
+            <!-- start header_right -->
+            <div class="header_right" style="margin-top:30px;">
+                <div class="rgt-bottom">
+                    <div class="log">
+                        <div class="login">
+                            同步操作：                        
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div style="margin-top:8px;">
+                    <p>
+                        <input type="button" class="btn btn-primary btn-lg" onclick="window.location.href = '/Home/Start'" value="开始同步" />
+                        <a href="/Home/Stop" class="btn btn-primary btn-lg">停止同步 </a>
+                    </p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+
+</div>
+<div class="content">
+    <div class="women_main">
+        <!-- start content -->
+        <div class="progressbar-heading grids-heading text-center">
+            <h2>控制中心</h2>
+        </div>
+        <div class="grids">
+            @foreach (var item in Model.busiMoList)
+            {
+                <div class="panel panel-widget forms-panel">
+                    <div class="forms">
+                        <div class="form-grids widget-shadow" data-example-id="basic-forms">
+                            <div class="form-title">
+                                <h4>
+                                    任务名称 :@item.business.NAME <label style="margin-left:80%">
+                                        @Html.ActionLink("立即执行", "Run", new { code = item.business.CODE }, new { @class = "btn btn-default" })
+                                        @*@Html.ActionLink("查看日志", "GetLog", new { id = item.log.id }, new { @class = "btn btn-default"  href="/Home/GetLog/@item.business.ID})*@
+                                        <a class="btn btn-default" onclick="openwin('@item.business.ID')">查看日志</a>
+
+                                    </label>
+                                </h4>
+                            </div>
+                            <div class="form-body">
+                                <form>
+                                    <div class="form-group">
+                                        <a style="margin-right:44%;font:bold 14px;"><strong>上次执行</strong></a>
+                                        <a class="icon-shop"><strong>任务统计</strong></a>
+                                    </div>
+                                    <div class="form-group">
+
+                                        <div style="float:left;width:49%">
+                                            <div> <label>状态：@item.log.result</label></div>
+                                            <div>
+                                                <label>时间：@item.log.date</label>
+                                            </div>
+                                            <div>
+                                                <label>结果：@item.log.returnData</label>
+                                            </div>
+                                            <div>
+                                                <label>详情：@item.log.description</label>
+                                            </div>
+                                        </div>
+                                        <div style="float:left;width:49%">
+                                            <div> <label>共成功：@item.count.succount</label></div>
+                                            <div>
+                                                <label>共失败：@item.count.failcount</label>
+                                            </div>
+                                            <div>
+                                                <label>下次执行：@item.count.lattime</label>
+                                            </div>
+                                            <div>
+                                                <label>上次成功：@item.count.sucsum，上次失败：@item.count.failsum</label>
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<div id="myModal" class="modal  fade">
+    <div class="modal-body" style="padding-left:10%;padding-top:100px;">
+        <iframe id="myIframe" style="width:80%;height: 800px" ></iframe>
+    </div>
+</div>
+<script>
+    function openwin(busid) {
+        $("#myIframe").attr("src", "/Home/GetLog/" + busid);
+        $('#myModal').modal({ show: true });
+    }
+    function closelog() {
+        $('#myModal').modal('hide');
+    }
+
+</script>

@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ufinterface thirdparty="inventory" sender="005" receiver="u8" roottag="inventory" proc="edit" codeexchanged="N" exportneedexch="N" paginate="0" maxdataitems="20" docid="">
+  <inventory>
+    <header>
+      <code>26070519001103010</code>
+      <name>YFD-WDZ-YJY-0.6/1 5×16</name>
+      <InvAddCode />
+      <specs>YFD-WDZ-YJY-0.6/1 5×16</specs>
+      <sort_code>010206</sort_code>
+      <main_supplier />
+      <main_measure>M001</main_measure>
+      <switch_item />
+      <inv_position />
+      <sale_flag>1</sale_flag>
+      <purchase_flag>19</purchase_flag>
+      <selfmake_flag>1</selfmake_flag>
+      <prod_consu_flag>0</prod_consu_flag>
+      <in_making_flag>0</in_making_flag>
+      <tax_serv_flag>0</tax_serv_flag>
+      <suit_flag>0</suit_flag>
+      <tax_rate>17</tax_rate>
+      <unit_weight>0</unit_weight>
+      <unit_volume />
+      <pro_sale_price />
+      <ref_cost />
+      <ref_sale_price>280</ref_sale_price>
+      <bottom_sale_price />
+      <new_cost />
+      <advance_period>0</advance_period>
+      <ecnomic_batch />
+      <safe_stock />
+      <top_stock />
+      <bottom_stock />
+      <backlog />
+      <ABC_type />
+      <qlty_guarantee_flag>0</qlty_guarantee_flag>
+      <batch_flag>0</batch_flag>
+      <entrust_flag>0</entrust_flag>
+      <backlog_flag>0</backlog_flag>
+      <start_date>2017-03-30</start_date>
+      <end_date />
+      <free_item1>0</free_item1>
+      <free_item2>0</free_item2>
+      <self_define1>黑色自然长度(卷)</self_define1>
+      <self_define2>
+      </self_define2>
+      <self_define3>复古</self_define3>
+      <discount_flag>0</discount_flag>
+      <top_source_price />
+      <quality />
+      <retailprice />
+      <price1 />
+      <price2 />
+      <price3 />
+      <CreatePerson>莫海锋</CreatePerson>
+      <ModifyPerson>mhf</ModifyPerson>
+      <ModifyDate>2019-07-02</ModifyDate>
+      <subscribe_point />
+      <avgquantity />
+      <pricetype>全月平均法</pricetype>
+      <bfixunit>0</bfixunit>
+      <outline />
+      <inline />
+      <overdate />
+      <warndays />
+      <expense_rate />
+      <btrack>0</btrack>
+      <bserial>0</bserial>
+      <bbarcode>0</bbarcode>
+      <barcode />
+      <auth_class />
+      <self_define4>C1</self_define4>
+      <self_define5>铜镍合金</self_define5>
+      <self_define6>TAC偏振</self_define6>
+      <self_define7 />
+      <self_define8 />
+      <self_define9 />
+      <self_define10 />
+      <self_define11 />
+      <self_define12 />
+      <self_define13 />
+      <self_define14 />
+      <self_define15 />
+      <self_define16 />
+      <free_item3>0</free_item3>
+      <free_item4>0</free_item4>
+      <free_item5>0</free_item5>
+      <free_item6>0</free_item6>
+      <free_item7>0</free_item7>
+      <free_item8>0</free_item8>
+      <free_item9>0</free_item9>
+      <free_item10>0</free_item10>
+      <unitgroup_type>1</unitgroup_type>
+      <unitgroup_code>MJ001</unitgroup_code>
+      <puunit_code>M001</puunit_code>
+      <saunit_code>M001</saunit_code>
+      <stunit_code>M001</stunit_code>
+      <caunit_code>J001</caunit_code>
+      <unitgroup_name>自然长度</unitgroup_name>
+      <ccomunitname>
+      </ccomunitname>
+      <puunit_name />
+      <saunit_name />
+      <stunit_name />
+      <caunit_name />
+      <puunit_ichangrate />
+      <saunit_ichangrate />
+      <stunit_ichangrate />
+      <caunit_ichangrate />
+      <check_frequency />
+      <frequency />
+      <check_day />
+      <lastcheck_date />
+      <wastage />
+      <solitude>0</solitude>
+      <enterprise />
+      <address />
+      <file />
+      <brand />
+      <checkout_no />
+      <licence />
+      <specialties>0</specialties>
+      <defwarehouse />
+      <salerate />
+      <advanceDate />
+      <currencyName />
+      <ProduceAddress />
+      <produceNation />
+      <RegisterNo />
+      <EnterNo />
+      <PackingType />
+      <EnglishName />
+      <PropertyCheck>0</PropertyCheck>
+      <PreparationType />
+      <Commodity />
+      <RecipeBatch>0</RecipeBatch>
+      <NotPatentName />
+      <cAssComunitCode />
+      <ROPMethod />
+      <SubscribePoint />
+      <BatchRule />
+      <AssureProvideDays />
+      <VagQuantity />
+      <TestStyle />
+      <DTMethod />
+      <DTRate />
+      <DTNum />
+      <DTUnit />
+      <DTStyle />
+      <QTMethod />
+      <bPlanInv>0</bPlanInv>
+      <bProxyForeign>0</bProxyForeign>
+      <bATOModel>0</bATOModel>
+      <bCheckItem>0</bCheckItem>
+      <bPTOModel>0</bPTOModel>
+      <bequipment>0</bequipment>
+      <cProductUnit>M001</cProductUnit>
+      <fOrderUpLimit />
+      <cMassUnit />
+      <fRetailPrice />
+      <cInvDepCode />
+      <iAlterAdvance />
+      <fAlterBaseNum />
+      <cPlanMethod>R</cPlanMethod>
+      <bMPS>0</bMPS>
+      <bROP>0</bROP>
+      <bRePlan>0</bRePlan>
+      <cSRPolicy>PE</cSRPolicy>
+      <bBillUnite>0</bBillUnite>
+      <iSupplyDay />
+      <fSupplyMulti />
+      <fMinSupply />
+      <bCutMantissa>0</bCutMantissa>
+      <cInvPersonCode />
+      <iInvTfId />
+      <cEngineerFigNo />
+      <bInTotalCost>1</bInTotalCost>
+      <iSupplyType>0</iSupplyType>
+      <bConfigFree1>0</bConfigFree1>
+      <bConfigFree2>0</bConfigFree2>
+      <bConfigFree3>0</bConfigFree3>
+      <bConfigFree4>0</bConfigFree4>
+      <bConfigFree5>0</bConfigFree5>
+      <bConfigFree6>0</bConfigFree6>
+      <bConfigFree7>0</bConfigFree7>
+      <bConfigFree8>0</bConfigFree8>
+      <bConfigFree9>0</bConfigFree9>
+      <bConfigFree10>0</bConfigFree10>
+      <iDTLevel />
+      <cDTAQL />
+      <bOutInvDT>0</bOutInvDT>
+      <bPeriodDT>0</bPeriodDT>
+      <cDTPeriod />
+      <bBackInvDT>0</bBackInvDT>
+      <iEndDTStyle />
+      <bDTWarnInv>0</bDTWarnInv>
+      <fBackTaxRate />
+      <cCIQCode />
+      <cWGroupCode />
+      <cWUnit />
+      <fGrossW />
+      <cVGroupCode />
+      <cVUnit />
+      <fLength />
+      <fWidth />
+      <fHeight />
+      <cpurpersoncode />
+      <iBigMonth />
+      <iBigDay />
+      <iSmallMonth />
+      <iSmallDay />
+      <cshopunit>M001</cshopunit>
+      <bimportmedicine>0</bimportmedicine>
+      <bfirstbusimedicine>0</bfirstbusimedicine>
+      <bforeexpland>0</bforeexpland>
+      <cinvplancode />
+      <fconvertrate>1</fconvertrate>
+      <dreplacedate />
+      <binvmodel>0</binvmodel>
+      <iimptaxrate>17</iimptaxrate>
+      <iexptaxrate />
+      <bexpsale>0</bexpsale>
+      <idrawbatch />
+      <bcheckbsatp>0</bcheckbsatp>
+      <cinvprojectcode />
+      <itestrule />
+      <crulecode />
+      <bcheckfree1>0</bcheckfree1>
+      <bcheckfree2>0</bcheckfree2>
+      <bcheckfree3>0</bcheckfree3>
+      <bcheckfree4>0</bcheckfree4>
+      <bcheckfree5>0</bcheckfree5>
+      <bcheckfree6>0</bcheckfree6>
+      <bcheckfree7>0</bcheckfree7>
+      <bcheckfree8>0</bcheckfree8>
+      <bcheckfree9>0</bcheckfree9>
+      <bcheckfree10>0</bcheckfree10>
+      <bbommain>0</bbommain>
+      <bbomsub>1</bbomsub>
+      <bproductbill>0</bproductbill>
+      <icheckatp>0</icheckatp>
+      <iinvatpid />
+      <iplantfday />
+      <ioverlapday />
+      <fmaxsupply />
+      <bpiece>0</bpiece>
+      <bsrvitem>0</bsrvitem>
+      <bsrvfittings>0</bsrvfittings>
+      <fminsplit />
+      <bspecialorder>0</bspecialorder>
+      <btracksalebill>0</btracksalebill>
+      <fbuyexcess />
+      <isurenesstype>1</isurenesstype>
+      <idatetype />
+      <idatesum />
+      <idynamicsurenesstype />
+      <ibestrowsum />
+      <ipercentumsum />
+      <binbyprocheck>1</binbyprocheck>
+      <irequiretrackstyle>0</irequiretrackstyle>
+      <ibomexpandunittype>1</ibomexpandunittype>
+      <iexpiratdatecalcu>0</iexpiratdatecalcu>
+      <bpurpricefree1>0</bpurpricefree1>
+      <bpurpricefree2>0</bpurpricefree2>
+      <bpurpricefree3>0</bpurpricefree3>
+      <bpurpricefree4>0</bpurpricefree4>
+      <bpurpricefree5>0</bpurpricefree5>
+      <bpurpricefree6>0</bpurpricefree6>
+      <bpurpricefree7>0</bpurpricefree7>
+      <bpurpricefree8>0</bpurpricefree8>
+      <bpurpricefree9>0</bpurpricefree9>
+      <bpurpricefree10>0</bpurpricefree10>
+      <bompricefree1>0</bompricefree1>
+      <bompricefree2>0</bompricefree2>
+      <bompricefree3>0</bompricefree3>
+      <bompricefree4>0</bompricefree4>
+      <bompricefree5>0</bompricefree5>
+      <bompricefree6>0</bompricefree6>
+      <bompricefree7>0</bompricefree7>
+      <bompricefree8>0</bompricefree8>
+      <bompricefree9>0</bompricefree9>
+      <bompricefree10>0</bompricefree10>
+      <bsalepricefree1>0</bsalepricefree1>
+      <bsalepricefree2>0</bsalepricefree2>
+      <bsalepricefree3>0</bsalepricefree3>
+      <bsalepricefree4>0</bsalepricefree4>
+      <bsalepricefree5>0</bsalepricefree5>
+      <bsalepricefree6>0</bsalepricefree6>
+      <bsalepricefree7>0</bsalepricefree7>
+      <bsalepricefree8>0</bsalepricefree8>
+      <bsalepricefree9>0</bsalepricefree9>
+      <bsalepricefree10>0</bsalepricefree10>
+      <finvoutuplimit />
+      <bbondedinv>0</bbondedinv>
+      <bbatchcreate>0</bbatchcreate>
+      <bbatchproperty1>0</bbatchproperty1>
+      <bbatchproperty2>0</bbatchproperty2>
+      <bbatchproperty3>0</bbatchproperty3>
+      <bbatchproperty4>0</bbatchproperty4>
+      <bbatchproperty5>0</bbatchproperty5>
+      <bbatchproperty6>0</bbatchproperty6>
+      <bbatchproperty7>0</bbatchproperty7>
+      <bbatchproperty8>0</bbatchproperty8>
+      <bbatchproperty9>0</bbatchproperty9>
+      <bbatchproperty10>0</bbatchproperty10>
+      <bcontrolfreerange1>0</bcontrolfreerange1>
+      <bcontrolfreerange2>0</bcontrolfreerange2>
+      <bcontrolfreerange3>0</bcontrolfreerange3>
+      <bcontrolfreerange4>0</bcontrolfreerange4>
+      <bcontrolfreerange5>0</bcontrolfreerange5>
+      <bcontrolfreerange6>0</bcontrolfreerange6>
+      <bcontrolfreerange7>0</bcontrolfreerange7>
+      <bcontrolfreerange8>0</bcontrolfreerange8>
+      <bcontrolfreerange9>0</bcontrolfreerange9>
+      <bcontrolfreerange10>0</bcontrolfreerange10>
+      <finvciqexch>1</finvciqexch>
+      <iwarrantyperiod />
+      <iwarrantyunit>0</iwarrantyunit>
+      <binvkeypart>1</binvkeypart>
+      <iacceptearlydays>999</iacceptearlydays>
+      <fcurllaborcost />
+      <fcurlvarmanucost />
+      <fcurlfixmanucost />
+      <fcurlomcost />
+      <fnextllaborcost />
+      <fnextlvarmanucost />
+      <fnextlfixmanucost />
+      <fnextlomcost />
+      <dinvcreatedatetime>2017-03-30 09:55:21</dinvcreatedatetime>
+      <bpuquota>0</bpuquota>
+      <binvrohs>0</binvrohs>
+      <fprjmatlimit />
+      <bprjmat>0</bprjmat>
+      <binvasset>0</binvasset>
+      <bsrvproduct>0</bsrvproduct>
+      <iacceptdelaydays>0</iacceptdelaydays>
+      <cInvMnemCode />
+      <iPlanCheckDay>0</iPlanCheckDay>
+      <iMaterialsCycle />
+      <idrawtype>0</idrawtype>
+      <bSCkeyProjections>0</bSCkeyProjections>
+      <iSupplyPeriodType>1</iSupplyPeriodType>
+      <iTimeBucketId />
+      <iAvailabilityDate>1</iAvailabilityDate>
+    </header>
+    <body>
+    </body>
+  </inventory>
+</ufinterface>

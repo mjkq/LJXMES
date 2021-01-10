@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ufinterface sender="005" receiver="u8" roottag="storeout" docid="645103096" proc="add" codeexchanged="N" exportneedexch="N" display="出库单" family="库存管理" timestamp="0x00000000001D47D5">
+  <storeout>
+    <header>
+      <id>6</id>
+      <receiveflag>0</receiveflag>
+      <vouchtype>09</vouchtype>
+      <businesstype>其他出库</businesstype>
+      <source>库存</source>
+      <businesscode />
+      <warehousecode>AHC</warehousecode>
+      <date>2019-05-15</date>
+      <code>IDHC2019050002</code>
+      <receivecode />
+      <departmentcode>03</departmentcode>
+      <personcode />
+      <purchasetypecode />
+      <saletypecode />
+      <customercode />
+      <vendorcode>
+      </vendorcode>
+      <ordercode />
+      <quantity />
+      <arrivecode />
+      <billcode />
+      <consignmentcode />
+      <arrivedate />
+      <checkcode />
+      <checkdate />
+      <checkperson />
+      <templatenumber>85</templatenumber>
+      <serial />
+      <handler />
+      <memory>工程用线</memory>
+      <maker>张永香</maker>
+      <chandler />
+      <define1 />
+      <define2 />
+      <define3 />
+      <define4 />
+      <define5 />
+      <define6 />
+      <define7>
+      </define7>
+      <define8 />
+      <define9 />
+      <define10 />
+      <define11 />
+      <define12 />
+      <define13 />
+      <define14 />
+      <define15 />
+      <define16 />
+      <auditdate />
+      <taxrate />
+      <exchname>人民币</exchname>
+      <exchrate>1</exchrate>
+      <contact />
+      <phone />
+      <mobile />
+      <address />
+      <conphone />
+      <conmobile />
+      <deliverunit />
+      <contactname />
+      <officephone />
+      <mobilephone />
+      <psnophone />
+      <psnmobilephone />
+      <shipaddress>
+      </shipaddress>
+      <addcode />
+    </header>
+    <body>
+      <entry>
+        <barcode />
+        <inventorycode>23103150001010</inventorycode>
+        <free1 />
+        <free2 />
+        <free3 />
+        <free4 />
+        <free5 />
+        <free6 />
+        <free7 />
+        <free8 />
+        <free9 />
+        <free10 />
+        <shouldquantity>
+        </shouldquantity>
+        <shouldnumber>
+        </shouldnumber>
+        <quantity>125</quantity>
+        <cmassunitname>米</cmassunitname>
+        <assitantunit>M001</assitantunit>
+        <assitantunitname>米</assitantunitname>
+        <irate>1.00000000000000</irate>
+        <number>125</number>
+        <price>0</price>
+        <cost>0.00000000000000</cost>
+        <plancost />
+        <planprice />
+        <serial />
+        <makedate />
+        <validdate />
+        <transitionid />
+        <subbillcode />
+        <subpurchaseid />
+        <position>
+        </position>
+        <itemclasscode />
+        <itemclassname />
+        <itemcode />
+        <itemname />
+        <define22 />
+        <define23 />
+        <define24 />
+        <define25 />
+        <define26 />
+        <define27 />
+        <define28 />
+        <define29 />
+        <define30 />
+        <define31 />
+        <define32>
+        </define32>
+        <define33 />
+        <define34 />
+        <define35 />
+        <define36 />
+        <define37 />
+        <subconsignmentid />
+        <delegateconsignmentid />
+        <subproducingid />
+        <subcheckid />
+        <cRejectCode />
+        <iRejectIds />
+        <cCheckPersonCode />
+        <dCheckDate />
+        <cCheckCode />
+        <iMassDate />
+        <ioritaxcost />
+        <ioricost />
+        <iorimoney />
+        <ioritaxprice />
+        <iorisum />
+        <taxrate>0</taxrate>
+        <taxprice>
+        </taxprice>
+        <isum>
+        </isum>
+        <massunit />
+      </entry>
+    </body>
+  </storeout>
+</ufinterface>

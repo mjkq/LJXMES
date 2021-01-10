@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeAPI", "TimeAPI\TimeAPI.csproj", "{C27012A9-E05C-4E2D-8519-555F8311961A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "业务操作", "业务操作", "{F4596E96-3AAA-420D-B27F-47DF66F07613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{9C2744B8-B1BD-4E00-BADE-DA8EF616CECA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据库操作", "数据库操作", "{97D33798-ED45-48E3-9E15-12F27A180DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataHelp", "DataHelper\DataHelp.csproj", "{C04FF358-8EAD-4175-8F90-B36EBC6B76A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "模型", "模型", "{1E9EF607-9B0C-48F7-94D7-36A0DAC20042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusModel", "BusModel\BusModel.csproj", "{7EB1ABAC-AAF6-433D-A9E0-A44953D3BCA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F5A94C73-0D3F-4C90-9356-4FA424AEDADF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C27012A9-E05C-4E2D-8519-555F8311961A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27012A9-E05C-4E2D-8519-555F8311961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27012A9-E05C-4E2D-8519-555F8311961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27012A9-E05C-4E2D-8519-555F8311961A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C2744B8-B1BD-4E00-BADE-DA8EF616CECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2744B8-B1BD-4E00-BADE-DA8EF616CECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2744B8-B1BD-4E00-BADE-DA8EF616CECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2744B8-B1BD-4E00-BADE-DA8EF616CECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04FF358-8EAD-4175-8F90-B36EBC6B76A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04FF358-8EAD-4175-8F90-B36EBC6B76A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04FF358-8EAD-4175-8F90-B36EBC6B76A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04FF358-8EAD-4175-8F90-B36EBC6B76A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB1ABAC-AAF6-433D-A9E0-A44953D3BCA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB1ABAC-AAF6-433D-A9E0-A44953D3BCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB1ABAC-AAF6-433D-A9E0-A44953D3BCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB1ABAC-AAF6-433D-A9E0-A44953D3BCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A94C73-0D3F-4C90-9356-4FA424AEDADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A94C73-0D3F-4C90-9356-4FA424AEDADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A94C73-0D3F-4C90-9356-4FA424AEDADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A94C73-0D3F-4C90-9356-4FA424AEDADF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C2744B8-B1BD-4E00-BADE-DA8EF616CECA} = {F4596E96-3AAA-420D-B27F-47DF66F07613}
+		{C04FF358-8EAD-4175-8F90-B36EBC6B76A5} = {97D33798-ED45-48E3-9E15-12F27A180DD3}
+		{7EB1ABAC-AAF6-433D-A9E0-A44953D3BCA6} = {1E9EF607-9B0C-48F7-94D7-36A0DAC20042}
+		{F5A94C73-0D3F-4C90-9356-4FA424AEDADF} = {F4596E96-3AAA-420D-B27F-47DF66F07613}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5B54B5B-362B-43BA-AD3E-80DD6E885215}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://2268448070.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Business\\Business.csproj
+		SccProjectTopLevelParentUniqueName1 = TimeAPI.sln
+		SccProjectName1 = Business
+		SccLocalPath1 = Business
+		SccProjectUniqueName2 = BusModel\\BusModel.csproj
+		SccProjectTopLevelParentUniqueName2 = TimeAPI.sln
+		SccProjectName2 = BusModel
+		SccLocalPath2 = BusModel
+		SccProjectUniqueName3 = Common\\Common.csproj
+		SccProjectTopLevelParentUniqueName3 = TimeAPI.sln
+		SccProjectName3 = Common
+		SccLocalPath3 = Common
+		SccProjectUniqueName4 = DataHelper\\DataHelp.csproj
+		SccProjectTopLevelParentUniqueName4 = TimeAPI.sln
+		SccProjectName4 = DataHelper
+		SccLocalPath4 = DataHelper
+		SccProjectUniqueName5 = TimeAPI\\TimeAPI.csproj
+		SccProjectName5 = TimeAPI
+		SccLocalPath5 = TimeAPI
+	EndGlobalSection
+EndGlobal

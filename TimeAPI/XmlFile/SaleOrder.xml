@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ufinterface roottag="saleorder" billtype="gl" docid="" receiver="U8" sender="33" proc="add" codeexchanged="N" exportneedexch="N" version="2.0">
+  <saleorder>
+    <header>
+      <id />
+      <outid />
+      <typecode />
+      <date />
+      <code />
+      <custcode />
+      <deptcode />
+      <personcode />
+      <sendcode />
+      <sendaddress />
+      <paycondition_code />
+      <currency />
+      <currencyrate />
+      <taxrate />
+      <earnest />
+      <memo />
+      <maker />
+      <businesstype />
+      <disflag />
+      <define1 />
+      <define2 />
+      <define3 />
+      <define4 />
+      <define5 />
+      <define6 />
+      <define7 />
+      <define8 />
+      <define9 />
+      <define10 />
+      <define11 />
+      <define12 />
+      <define13 />
+      <define14 />
+      <define15 />
+      <define16 />
+      <cusname />
+      <caddcode />
+      <cgatheringplan />
+      <dpredatebt />
+      <dpremodatebt />
+      <bmustbook />
+      <fbookratio />
+      <fbooksum />
+      <fbooknatsum />	
+		  <retaildates></retaildates>
+    </header>
+    <body>
+      <entry>
+        <id />
+        <body_outid />
+        <inventorycode />
+        <preparedate />
+        <quantity />
+        <num />
+        <quotedprice />
+        <unitprice />
+        <taxunitprice />
+        <money />
+        <tax />
+        <sum />
+        <assistantunit />
+        <discount />
+        <natunitprice />
+        <natmoney />
+        <nattax />
+        <natsum />
+        <natdiscount />
+        <memo />
+        <cfree1 />
+        <cfree2 />
+        <mid />
+        <discountrate />
+        <discountrate2 />
+        <taxrate />
+        <define22 />
+        <define23 />
+        <define24 />
+        <define25 />
+        <define26 />
+        <define27 />
+        <itemcode />
+        <item_class />
+        <itemname />
+        <itemclass_name />
+        <free3 />
+        <free4 />
+        <free5 />
+        <free6 />
+        <free7 />
+        <free8 />
+        <free9 />
+        <free10 />
+        <unitrate />
+        <unitcode />
+        <dreleasedate />
+        <dpredate />
+        <dpremodate />
+		    <demandtype></demandtype> 
+		    <demandcode></demandcode> 
+		    <demandmemo></demandmemo> 
+		    <retailxsquantity></retailxsquantity>
+		    <retailxsmoney></retailxsmoney>
+		    <retailkcquantity></retailkcquantity>
+		    <retailyhmoney></retailyhmoney>
+	<ccusinvcode></ccusinvcode>
+	<ccusinvname></ccusinvname>
+      </entry>
+    </body>
+  </saleorder>
+</ufinterface>

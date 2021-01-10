@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ufinterface roottag="purchaseorder" billtype="gl" docid="" receiver="u8" sender="33" proc="add" codeexchanged="N" exportneedexch="N">
+  <purchaseorder>
+    <header>
+      <code />
+      <date />
+      <vendorcode />
+      <deptcode />
+      <personcode />
+      <purchase_type_code />
+      <operation_type_code />
+      <address />
+      <recsend_type />
+      <idiscounttaxtype>1</idiscounttaxtype>
+      <currency_name />
+      <currency_rate />
+      <tax_rate />
+      <paycondition_code />
+      <traffic_money />
+      <bargain />
+      <remark />
+      <period />
+      <maker />
+      <define1 />
+      <define2 />
+      <define3 />
+      <define4 />
+      <define5 />
+      <define6 />
+      <define7 />
+      <define8 />
+      <define9 />
+      <define10 />
+      <define11 />
+      <define12 />
+      <define13 />
+      <define14 />
+      <define15 />
+      <define16 />
+    </header>
+    <body>
+      <entry>
+        <inventorycode />
+        <checkflag />
+        <unitcode />
+        <quantity />
+        <num />
+        <quotedprice />
+        <price />
+        <taxprice />
+        <money />
+        <tax />
+        <sum />
+        <discount />
+        <assistantunit />
+        <natprice />
+        <natmoney />
+        <nattax />
+        <natsum />
+        <natdiscount />
+        <taxrate />
+        <item_class />
+        <item_code />
+        <item_name />
+        <arrivedate />
+        <define22 />
+        <define23 />
+        <define24 />
+        <define25 />
+        <define26 />
+        <define27 />
+        <define28 />
+        <define29 />
+        <define30 />
+        <define31 />
+        <define32 />
+        <define33 />
+        <define34 />
+        <define35 />
+        <define36 />
+        <define37 />
+        <free1 />
+        <free2 />
+        <free3 />
+        <free4 />
+        <free5 />
+        <free6 />
+        <free7 />
+        <free8 />
+        <free9 />
+        <free10 />
+      </entry>
+    </body>
+  </purchaseorder>
+</ufinterface>
